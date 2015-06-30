@@ -60,7 +60,8 @@ button:focus {
 /* Sidebar */
 .sidebar {
   text-align: center;
-  background: #f5f5f5;
+  background: #eee;
+  background-size: cover;
   z-index: 1000;
   position: fixed;
   width: 300px;
@@ -70,6 +71,7 @@ button:focus {
   top: 0;
   left: 0;
   padding: 2em 1em;
+  color: black;
 }
 
 .sidebar h1 {
@@ -198,6 +200,11 @@ button:focus {
 /* Grid container */
 .grid {
   position: relative;
+}
+
+.intro {
+  background: url(..images/clouds.jpeg)center center no-repeat;
+  background-size: cover;
 }
 
 /* Overlay */
